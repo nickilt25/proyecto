@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="../css/estilo1.css">
+        <script>
+            function masa(){
+                var peso=document.getElementById('peso').value;
+                var altura=document.getElementById('altura').value;
+                altura=parseFloat(altura)/100;
+                var masa=parseFloat(peso)/parseFloat(altura);
+                alert("Su Masa Corporal es: "+masa);
+            }
+        </script>
+    </head>
+<body>
+   <blockquote>
+     <div class="principal">
+        <section>
+            <h1>"Consultas"</h1>
+            <center><form id="consulta">
+                 <h3>¡Deja tu Consulta!</h3>
+                 Correo Electronico <br><input type="email"><br>
+                 Nombre <br><input type="text"><br>
+                 Asunto <br><input type="text"><br>
+                 Mensaje <br><textarea></textarea><br>
+                <button>Enviar</button>
+                </form></center>
+            <center><form id="masa">
+                 <h3>¡Consulta tu Masa Corporal!</h3>
+                 Ingresa tu Peso: <input type="text" id="peso"> [kg] <br>
+                 Ingresa tu Altura: <input type="text" id="altura"> [cm] <br>
+                <button onclick="masa()">Calcular</button>
+                </form></center>
+            <h3>Contactos</h3>
+                <p>Nos encontramos en la Av. Arce cerca de la Plaza Isabela Catolica enfrente del Edificio "6 de Agosto" #1234</p>
+            <center><p><b>Numero Telefonicos:</b> 2216359 - 2216545 - 2234678 - 2243478 </p>
+            <p><b>Correo Electronico:</b> atencionalcliente@gmail.com - centrodesaludnicole@nacional.org</p>
+            <p><b>Fax:</b> (+591) (6) 737-6666</p>
+                <p><b>Whatsapp:</b> (+591) 76543273</p></center>
+            <p>Siguenos en Nuestras Redes Sociales<br></p>
+            <center><p><b>Facebook:</b> Centro de Salud Nicole Loza<br></p>
+            <p><b>Twiter:</b> @Centro de Salud Nicole Loza<br></p>
+            <p><b>Instagram:</b> @Centro_de_Salud_Nicole_Loza</p></center>
+            <center><img  src="../imagenes/atencion.jpg">
+            <img  src="../imagenes/contacto.jpg"></center>
+            <center><form id="vacuna">
+                 <h3>¡Registrate para Vacunarte contra el COVID-19!</h3>
+                 Correo Electronico: <input type="email"><br>
+                 Nombre: <input type="text"><br>
+                 Telefono - Celular: <input type="text"><br>
+                 Edad: <input type="number"><br>
+                 Fecha: <input type="date"><br>
+                 Departamento: <input type="text"><br>
+                 Dirreccion: <input type="text"><br>
+                 Alergias: <input type="text"><br>
+                <button>Enviar</button>
+            </form></center>
+            <center><img  src="../imagenes/giphy%20(8).gif" class="image"><img  src="../imagenes/giphy.gif" class="image"></center>
+        </section>
+    </div>
+    </blockquote>
+</body>
+</html>

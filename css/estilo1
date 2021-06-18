@@ -1,0 +1,7 @@
+section{
+   background-image: url(../imagenes/fondo2.jpg);
+    font-family: Century Gothic;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 15px;
+}

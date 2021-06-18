@@ -1,0 +1,80 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+   background-image: url(../imagenes/fondop.jpg);
+    border-radius: 15px;
+}
+form{
+    background-color: #CFFFEF;
+    font-family: Century Gothic;
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    height: 560px;
+    border-radius: 10%;
+} 
+#consulta{
+    font-weight: bold;
+}
+button{
+    width: 20%;
+    height: 10%;
+    font-family: Century Gothic;
+    font-weight: bold;
+    font-size: 25px;
+}
+#masa{
+    width: 60%;
+    height: 250px;
+    font-weight: bold;
+}
+#masa button{
+    width: 20%;
+    height: 20%;
+}
+input{
+    height: 30px;
+    width: 50%;
+}
+textarea{
+     height: 100px;
+     width: 50%;
+}
+p{
+     font-family: Century Gothic;
+    font-size: 20px;
+    text-align: justify;
+}
+ul{
+    font-family: Century Gothic;
+    font-size: 20px;
+    text-align: justify;
+}
+img{
+        width: 30%;
+}
+center .image{
+    width: 15%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Segoe UI;
+    color: #63F7E5;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: Segoe UI, sans-serif;
+    color: #58EBA8;
+    font-style: italic;
+    text-transform: capitalize;
+}
+#vacuna{
+     width: 60%;
+    height: 650px;
+}
